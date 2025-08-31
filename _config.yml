@@ -6,4 +6,3 @@ plugins:
   - jekyll-feed
 
 url: https://ccnoecker.github.io
-baseurl: ""          # user site => leave empty
