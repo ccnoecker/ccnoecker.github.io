@@ -1,0 +1,9 @@
+title: Curtis Noecker
+description: Data & software projects.
+theme: bulma-clean-theme
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+url: https://ccnoecker.github.io
+baseurl: ""          # user site => leave empty
