@@ -1,9 +1,8 @@
 title: Curtis Noecker
 description: Data & software projects.
-theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
 url: https://ccnoecker.github.io
-baseurl: ""          # user site => leave empty
