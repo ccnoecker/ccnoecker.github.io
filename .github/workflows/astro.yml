@@ -46,16 +46,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
-      - name: Debug pnpm config
-        run: |
-          pwd
-          ls -la
-          echo "pnpm version:"
-          pnpm --version
-          echo "workspace config:"
-          cat pnpm-workspace.yaml || true
-          echo "onlyBuiltDependencies:"
-          pnpm config get onlyBuiltDependencies || true
       - name: Install dependencies
         run: pnpm ci
         working-directory: ${{ env.BUILD_PATH }}
